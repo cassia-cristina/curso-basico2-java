@@ -8,6 +8,7 @@ public class Teste {
 		usandoEnum();
 	}
 	
+	
 	private static void imprimeDiaSemana(int dia) {
 		switch(dia) {
 		case 1: System.out.println("Segunda-feira"); break;
