@@ -9,50 +9,35 @@ public class Wrappers {
 		float num3 = 13.2F;
 		int num4 = 145;
 		
-		@SuppressWarnings("deprecation")
-		Short num5 = new Short((short) 2);
-		@SuppressWarnings("deprecation")
-		Byte num6 = new Byte((byte) 10);
-		@SuppressWarnings("deprecation")
-		Integer num7 = new Integer(45);
-		@SuppressWarnings("deprecation")
-		Float num8 = new Float(3.1F);
-		@SuppressWarnings("deprecation")
-		Double num9 = new Double(4.11);
-		@SuppressWarnings("deprecation")
-		Boolean flag = new Boolean(true);
-		@SuppressWarnings("deprecation")
-		Character a = new Character('a');
 		
-		@SuppressWarnings("deprecation")
-		Integer num10 = new Integer("1000");
+		Integer num5 = 1000;
 		
-		Long num11 = num10.longValue();
-		System.out.println(num11);
+		Long num6 = num5.longValue();
+		System.out.println(num6);
 		
-		int num12 = Integer.parseInt("5000");
-		System.out.println(num12);
+		int num7 = Integer.parseInt("5000");
+		System.out.println(num7);
 		
-		double num13 = Double.parseDouble("3.567");
-		System.out.println(num13);
+		double num8 = Double.parseDouble("3.456");
+		System.out.println(num8);
 		
-		Integer num14 = Integer.valueOf(1500);
-		System.out.println(num14);
+		Integer num9 = Integer.valueOf(1500);
+		System.out.println(num9);
 		
-		Integer num15 = 1500;
-		Double num16 = 4.678;
+		Integer num10 = 1500;
+		Double num11 = 4.678;
 		
 		
-		if(num12 == num13) {
-			System.out.println("Num 12 e Num 13 são iguais");
+		if(num7 == num8) {
+			System.out.println("Num 7 e Num 8 são iguais");
 		} else {
-			System.out.println("Num 12 e Num 13 são diferentes");
+			System.out.println("Num 7 e Num 8 são diferentes");
 		}
 		
-		if(num14.equals(num15)) {
-			System.out.println("Num 14 e Num 15 são iguais");
+		if(num9.equals(num10)) {
+			System.out.println("Num 9 e Num 10 são iguais");
 		} else {
-			System.out.println("Num 14 e Num 15 são diferentes");
+			System.out.println("Num 9 e Num 10 são diferentes");
 		}
 
 

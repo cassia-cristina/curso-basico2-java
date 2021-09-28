@@ -6,12 +6,12 @@ public enum DiaSemana {
 	
 	private int valor;
 	
-	private DiaSemana(int valor) {
+	DiaSemana(int valor) {
 		this.valor = valor;
 	}
 	
 	public int getValor() {
-		return valor;
+		return this.valor;
 	}
 
 }

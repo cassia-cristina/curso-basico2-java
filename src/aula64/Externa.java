@@ -20,7 +20,7 @@ public class Externa {
 		Externa externa = new Externa();
 		Interna interna = externa.new Interna();
 		
-		interna.imprimeTexto();		
+		interna.imprimeTexto();
 
 	}
 	

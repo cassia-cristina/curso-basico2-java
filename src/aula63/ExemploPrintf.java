@@ -9,7 +9,7 @@ public class ExemploPrintf {
 		System.out.printf("Hello %s%n", "Olá, Mundo!");
 		System.out.printf("%S", meuTexto);
 		System.out.printf("%n");
-		
+
 		System.out.printf("%c", 'c');
 		System.out.printf("%n");
 		System.out.printf("%C", 'c');
